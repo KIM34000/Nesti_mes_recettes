@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5E5E8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/choseLabel"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/easyBtn"
+        android:layout_width="340dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="20sp"
+        android:background="@color/purple_500"
+        android:text="@string/easyBtn"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/glutenBtn"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:text="@string/noGlutenBtn"
+        android:textSize="30sp"
+        tools:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/seasonBtn"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:text="SAISON"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/traditionBtn"
+        android:layout_width="340dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/traditionBtn"
+        android:textSize="30sp" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/menu_search" />
+    <item
+        android:id="@+id/menu_list"
+        android:title="@string/menu_list" />
+    <item
+        android:id="@+id/menu_presentation"
+        android:title="@string/menu_presentation">
+        <menu>
+            <item
+                android:id="@+id/menu_contact"
+                android:title="@string/menu_contact" />
+            <item
+                android:id="@+id/menu_team"
+                android:title="@string/menu_team" />
+            <item
+                android:id="@+id/menu_project"
+                android:title="@string/menu_project" />
+        </menu>
+    </item>
+</menu>
